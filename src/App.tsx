@@ -1,8 +1,5 @@
 import { Navigation } from "./routes/Navigation";
-export function App() {
-  return (
-    <>
-      <Navigation />
-    </>
-  );
-}
+
+export const App = () => {
+  return <Navigation />;
+};
